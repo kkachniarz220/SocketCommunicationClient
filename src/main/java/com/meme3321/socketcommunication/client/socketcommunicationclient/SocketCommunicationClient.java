@@ -14,9 +14,6 @@ public final class SocketCommunicationClient extends JavaPlugin {
     public void onDisable() {
     }
 
-    private void registerListeners() {
-    }
-
     private void registerCommands() {
         this.getCommand("dolacz").setExecutor(new JoinToArenaCommand());
     }
