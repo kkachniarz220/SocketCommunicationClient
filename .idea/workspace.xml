@@ -7,12 +7,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="15af4c15-2293-4b68-9cb3-ec9e8fbee4a4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/meme3321/socketcommunication/client/socketcommunicationclient/commands/JoinToArenaCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/meme3321/socketcommunication/client/socketcommunicationclient/commands/JoinToArenaCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SocketCommunicationClient/SocketCommunicationClient.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SocketCommunicationClient/SocketCommunicationClient.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/meme3321/socketcommunication/client/socketcommunicationclient/SocketCommunicationClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/meme3321/socketcommunication/client/socketcommunicationclient/SocketCommunicationClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/meme3321/socketcommunication/client/socketcommunicationclient/commands/JoinToArenaCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/meme3321/socketcommunication/client/socketcommunicationclient/commands/JoinToArenaCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/meme3321/socketcommunication/client/socketcommunicationclient/executors/SocketExecutor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/meme3321/socketcommunication/client/socketcommunicationclient/executors/SocketExecutor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/meme3321/socketcommunication/client/socketcommunicationclient/listeners/CommandPreprocessListener.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="../SocketCommunicationServer/.idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +23,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -29,7 +31,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/meme3321/socketcommunication/client/socketcommunicationclient/SocketCommunicationClient.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="528">
-              <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+              <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#329#330#0" expanded="true" />
@@ -56,8 +58,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/meme3321/socketcommunication/client/socketcommunicationclient/commands/JoinToArenaCommand.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+            <state relative-caret-position="504">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -160,12 +162,13 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SocketCommunicationServer" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SocketCommunicationServer/.idea" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Ignored.Files" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -218,18 +221,17 @@
       <option name="presentableId" value="Default" />
       <updated>1574707668556</updated>
       <workItem from="1574707673474" duration="5347000" />
-      <workItem from="1574794743065" duration="1107000" />
+      <workItem from="1574794743065" duration="1218000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6454000" />
+    <option name="totallyTimeSpent" value="6565000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2531983" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2531983" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -246,7 +248,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32998884" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32998884" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32998884" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -284,7 +286,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/meme3321/socketcommunication/client/socketcommunicationclient/SocketCommunicationClient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="528">
-          <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#329#330#0" expanded="true" />
@@ -307,8 +309,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/meme3321/socketcommunication/client/socketcommunicationclient/commands/JoinToArenaCommand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+        <state relative-caret-position="504">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
