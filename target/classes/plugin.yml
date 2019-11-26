@@ -1,0 +1,9 @@
+name: SocketCommunicationClient
+version: 1.0
+main: com.meme3321.socketcommunication.client.socketcommunicationclient.SocketCommunicationClient
+api-version: 1.13
+authors: [meme3321]
+description: Connect your servers via Socket (Client)
+commands:
+  dolacz:
+    description: Join to BW arena
