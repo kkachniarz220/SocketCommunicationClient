@@ -13,15 +13,25 @@ public class SocketExecutor {
     private static PrintWriter out;
     private static Socket socket;
 
-    public static void joinToArena(UUID playerUUID, String playerName) {
+    public SocketExecutor() {
+        openSocket();
+    }
+
+    private void openSocket() {
         try {
             socket = new Socket(InetAddress.getLocalHost(), 5001);
-            out = new PrintWriter(socket.getOutputStream(), true);
-            Bukkit.broadcastMessage("sending");
-
-            out.println("{\"uuid\":\"" + playerUUID + "\",\"playerName\":\"" + playerName + "\"}");
-            socket.close();
         } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
+
+    public void joinToArena(UUID playerUUID, String playerName) {
+        try {
+            out = new PrintWriter(socket.getOutputStream(), true);
+            out.println("{\"uuid\":\"" + playerUUID + "\",\"playerName\":\"" + playerName + "\"}");
+        } catch (IOException e) {
+        }
     }
+
+
 }
