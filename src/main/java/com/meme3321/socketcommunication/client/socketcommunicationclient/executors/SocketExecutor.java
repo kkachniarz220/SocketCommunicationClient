@@ -14,12 +14,20 @@ public class SocketExecutor {
     private static Socket socket;
 
     public SocketExecutor() {
-        openSocket();
+        open();
     }
 
-    private void openSocket() {
+    private void open() {
         try {
             socket = new Socket(InetAddress.getLocalHost(), 5001);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public void close() {
+        try {
+            socket.close();
         } catch (IOException e) {
             e.printStackTrace();
         }

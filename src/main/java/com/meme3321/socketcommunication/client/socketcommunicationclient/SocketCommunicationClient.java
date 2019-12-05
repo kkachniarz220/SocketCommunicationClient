@@ -18,6 +18,7 @@ public final class SocketCommunicationClient extends JavaPlugin {
 
     @Override
     public void onDisable() {
+        socketExecutor.close();
     }
 
     private void registerCommands() {
